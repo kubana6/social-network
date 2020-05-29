@@ -1,0 +1,10 @@
+.nav{
+    grid-area: n;
+    background-color:whitesmoke;
+}
+
+.item{
+    color : #4a76a8;
+}
+ 
+ 

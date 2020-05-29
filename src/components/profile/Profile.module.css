@@ -1,0 +1,9 @@
+.content{
+    grid-area: c;
+    
+}
+.longImage img{
+    margin:15px;
+    width: 1260px;
+    height: 120px;
+}
