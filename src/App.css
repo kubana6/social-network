@@ -11,4 +11,8 @@
     background-color: whitesmoke;
 }
 
+.app-wrapper-content{  
+    grid-area: c;
+}
+
 

@@ -1,17 +1,17 @@
 import React from 'react';
-import post from './Post.module.css';
+import s from './Post.module.css';
 const Post = (props) => {
   return (
     <div>
-      <div className={post.item}>
-        <img src='https://lh3.googleusercontent.com/proxy/lr7GeAS0hhUL41cT7b3-5ZCjnJuTXLQTg7sUytKkCO9xUvUOfm8NIM7owugvlMLKG3g3qajx8LU-2LFVjRJrFUqZcPjxxEbCwxs' />
+      <div className={s.item}>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTS7LFEGuHZFKOc_AtQudyknAdpG1PtpKDX-81XeaB_6xJstKD&usqp=CAU' />
         {props.name}
-        <div className={post.footer}>
+        <div className={s.footer}>
           <div >
-            <span>Like {props.like}</span>
+            <span>Like </span> {props.like}
           </div>
           <div>
-            <span>просмотров{props.see}</span>
+            <span>просмотров</span> {props.see}
           </div>
         </div>
       </div>

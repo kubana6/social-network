@@ -1,11 +1,11 @@
 import React from 'react';
 import Post from './Post/Post';
-import myPosts from './MyPosts.module.css'
+import s from './MyPosts.module.css'
 
 const MyPost = () => {
   return (
     <div>
-      <div className={myPosts.item}>
+      <div className={s.item}>
         <div>
           My posts
         </div>
