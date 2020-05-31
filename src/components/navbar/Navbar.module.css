@@ -5,6 +5,10 @@
 
 .item{
     color : #4a76a8;
+    
+}
+.item a {
+    text-decoration: none;
 }
  
  
