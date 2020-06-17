@@ -1,6 +1,8 @@
-
+.content{
+    margin: 0 auto;
+}
 .longImage img{
-    margin:15px;
-    width: 1260px;
+    margin:0 auto;
+    width: 100%;
     height: 120px;
 }

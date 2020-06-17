@@ -1,5 +1,5 @@
 import React from 'react';
-import dialog from './News.module.css'
+import s from './News.module.css'
 
 const News = () => {
     return (

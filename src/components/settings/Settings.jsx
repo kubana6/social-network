@@ -1,5 +1,5 @@
 import React from 'react';
-import dialog from './Settings.module.css'
+import s from './Settings.module.css'
 
 const Settings=()=>{
     return (
